@@ -1,0 +1,18 @@
+# Visual Studio / .NET ビルド成果物
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.pdb
+*.cache
+
+# 配布用ビルド出力（EXE本体は GitHub Releases で配布する）
+Publish/
+publish/
+
+# アプリ実行時に生成される設定・デバッグログ・撮影画像
+config.json
+log/
+*.log
+capture_*.png

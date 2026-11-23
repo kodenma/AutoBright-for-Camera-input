@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net10.0-windows10.0.19041.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<UseWPF>true</UseWPF>
+
+		<!-- EXE自体のアイコンとアプリ情報 -->
+		<ApplicationIcon>app.ico</ApplicationIcon>
+		<AssemblyTitle>AutoBright for Camera input</AssemblyTitle>
+		<Product>AutoBright for Camera input</Product>
+		<Authors>kodenma</Authors>
+		<Version>1.0.0</Version>
+
+		<!-- 配布用単一EXE設定（.NET未インストールPCでも単体動作） -->
+		<RuntimeIdentifier>win-x64</RuntimeIdentifier>
+		<SelfContained>true</SelfContained>
+		<PublishSingleFile>true</PublishSingleFile>
+		<IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+		<EnableCompressionInSingleFile>true</EnableCompressionInSingleFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Hardcodet.NotifyIcon.Wpf" Version="2.0.1" />
+		<PackageReference Include="System.Management" Version="10.0.0" />
+	</ItemGroup>
+
+</Project>
