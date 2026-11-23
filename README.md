@@ -1,7 +1,7 @@
 # AutoBright for Camera input
 
-Webカメラの映像から周囲の環境照度を推定し、内蔵ディスプレイおよび外部モニターの画面輝度を自動調整する Windows 向け常駐ユーティリティです。  
-A lightweight Windows tray utility that estimates ambient light from your webcam feed and automatically adjusts the brightness of built-in and external displays.
+Webカメラの映像から周囲の環境照度を推定し、内蔵ディスプレイおよび外部モニターの画面輝度を自動調整する Windows 向け常駐ユーティリティです。本ソフトウェアは AI（Gemini）を使用して作成しています。  
+A lightweight Windows tray utility that estimates ambient light from your webcam feed and automatically adjusts the brightness of built-in and external displays. This software was created using AI (Gemini).
 
 [日本語](#日本語) | [English](#english)
 
